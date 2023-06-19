@@ -1,0 +1,35 @@
+
+.article {
+    margin: 20px 0px;
+}
+
+.article .inside-article h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.article .inside-article ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.article .inside-article li{
+    border: 1px solid black;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:silver;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.article .inside-article li:hover{
+    transform: scale(1.02);
+    cursor: alias;
+    background-color:rgb(218, 218, 218);
+}
+
